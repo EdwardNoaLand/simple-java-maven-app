@@ -42,7 +42,7 @@ public class AppTest
 
     @Test
     public void addSampleTest(){
-        assertEquals(true, true);
+        assertEquals("make it fail", true, false);
     }
 
     @After
